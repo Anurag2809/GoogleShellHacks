@@ -1,0 +1,137 @@
+/* Google-like Header */
+.google-header {
+    background-color: #fff;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  #header-logo {
+    max-width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .google-search-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search-box {
+    position: relative;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  
+  .google-search-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    outline: none;
+    box-shadow: none;
+    font-size: 16px;
+  }
+  
+  .google-search-input:focus {
+    border-color: #4285f4;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    font-size: 16px;
+    color: #9aa0a6;
+    transform: translateY(-50%);
+  }
+  
+  .google-button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .google-button:hover {
+    background-color: #357ae8;
+  }
+  
+  .google-select {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .language-select-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .language-label {
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .google-main {
+    margin: 20px;
+    font-size: 18px;
+  }
+  
+  .google-article {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subheading {
+    font-weight: bold;
+  }
+  
+  /* New Site Title Container */
+  /* Enhanced Site Title Container */
+#site-title-container {
+    background: linear-gradient(90deg, rgba(0,121,255,1) 0%, rgba(0,212,255,1) 100%);
+    padding: 16px;
+    text-align: left;
+    color: white;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #site-logo {
+    max-width: 80px;
+    height: auto;
+    margin-right: 15px;
+    vertical-align: middle;
+  }
+  
+  #site-title-container h1 {
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0;
+    vertical-align: middle;
+  }
+  
+  #site-title-container:hover {
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  
